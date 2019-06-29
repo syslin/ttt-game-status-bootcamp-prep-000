@@ -15,7 +15,6 @@ def won?(board)
   end
 end
   
-end
 def full?(board)
   board.all? do |element|
     element!=""&& element=="X" || element=="O"
