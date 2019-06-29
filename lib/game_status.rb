@@ -33,6 +33,6 @@ end
 
 def winner?(board)
   if player==won?(board)
-    return player
+    return player[player.first]
   end
 end
